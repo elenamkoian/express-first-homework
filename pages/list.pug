@@ -1,0 +1,9 @@
+h1 List of users
+p There are #{users.length} user(s)
+
+ul
+  each item in users
+    li= item.name + " " + item.surname
+
+
+a(href="/add") Add user
